@@ -845,9 +845,9 @@
     if (typeof BBPlugin !== 'undefined' && BBPlugin.register) {
         BBPlugin.register(PLUGIN_ID, {
             title: 'PWGood Hat',
-            author: 'PWGood',
-            icon: 'icon-player',
-            description: 'PWGood Hat project format with dispenser reference and render dialog',
+            author: 'TRIVAIT',
+            icon: 'fa-hat-cowboy',
+            description: 'Blockbench plugin for PWGood accessories',
             version: '1.3.0',
             min_version: '4.8.0',
             variant: 'both',
@@ -884,8 +884,8 @@
                 format = new ModelFormat('pwgood_hat', {
                     id: 'pwgood_hat',
                     name: 'PWGood Hat',
-                    description: 'Model hats for PWGood with a dispenser reference block and render dialog',
-                    icon: 'icon-player',
+                    description: 'Blockbench plugin for PWGood accessories',
+                    icon: 'fa-hat-cowboy',
                     category: 'minecraft',
                     target: ['Minecraft: Java Edition'],
                     show_on_start_screen: true,
